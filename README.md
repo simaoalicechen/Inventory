@@ -1,6 +1,6 @@
 # Inventory
 
-Inventory Project Description
+
 Write an inventory application for a budding tech guy who has a video channel featuring computer builds. Basically they have a pool of inventory, (for example 5 x AMD Ryzen 2-2700 CPUs) that they use for builds. When they take a CPU from the pool, they will indicate this using the object that tracks that sepcific type of CPU. They may also purchase additional CPUs, or retire some (because they overclocked it too much and burnt them out!).
 
 The base class is going to be a general Resource. This class should provide functionality common to all the actual resources (CPU, GPU, Memory, HDD, SSD) - for this exercise we're only going to implement CPU, HDD and SSD.
